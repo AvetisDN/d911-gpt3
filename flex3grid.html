@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #eee;
+            padding: 16px 0;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 16px;
+        }
+
+
+        .card {
+            box-shadow: rgba(0, 0, 0, 0.2) 0 4px 12px;
+            border-radius: 8px;
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .card img {
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card-address {
+            background: #000;
+            color: #fff;
+            padding: 16px;
+            text-align: center;
+        }
+        .card ul {
+            margin: 16px 0;
+        }
+
+        .cards {
+            display: grid;
+            gap: 4vw;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="cards">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1644267215262-cdf4479957ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="">
+                <div class="card-address">
+                    Address
+                </div>
+                <ul>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                    <li>List item 3</li>
+                </ul>
+                <a href="#">more...</a>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1644267215262-cdf4479957ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="">
+                <div class="card-address">
+                    Address
+                </div>
+                <ul>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                    <li>List item 3</li>
+                </ul>
+                <a href="#">more...</a>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1644267215262-cdf4479957ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80" alt="">
+                <div class="card-address">
+                    Address
+                </div>
+                <ul>
+                    <li>List item 1</li>
+                    <li>List item 2</li>
+                    <li>List item 3</li>
+                    <li>List item 3</li>
+                </ul>
+                <a href="#">more...</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
